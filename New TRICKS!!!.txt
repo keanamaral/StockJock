@@ -1,0 +1,4 @@
+1) fancybox - open video in same page vs new page
+2) browsify vs webpack
+3) foursquare - api for hotel, restaurant, reviews/data
+4) materialize - like bootstrap from google - makes it easier to show maps etc.

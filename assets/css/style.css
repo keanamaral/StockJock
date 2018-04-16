@@ -1,0 +1,198 @@
+ header{
+     background: green;
+     text-align: center;
+     font-size: 22px;
+     color: white;
+     margin-bottom: 5px;
+     border-radius: 5px;
+ }
+
+ .red{
+     color: red;
+ }
+
+ .green{
+     color: green;
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  @-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  .ticker-wrap {
+    /* display:none; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 100%;
+    box-sizing: content-box;
+  }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+  }
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+ #idloading{
+    margin: auto;
+ }
+
+ .companyButtons{
+     margin: 3px;
+ }
+
+ #openHighLow{
+     color: black;
+ }
+ 
+ #center{
+    text-align: center;
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+} 
+#logo{
+    max-width: 50%;
+    position: relative;
+    /* top: 50%;
+    transform: translateY(-50%);  */
+}
+
+.col-md-6{
+    border: 3px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.thumbnailImg{
+    max-width: 100%;
+}
+
+#graph{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+#data0, #data1, #data2, #newsForm{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/**CSS Section Kean**/
+body {
+    background: url(/Images/coming soon.jpg);
+    }
+#subtitle{
+    font-family: 'Shrikhand', cursive;
+}
+  #headerTitle{
+    font-family: 'Shrikhand', cursive;
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    border: 5px solid rgb(133, 20, 39);
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height:125px;
+    font-size: 100px;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+  }
+#newsHead{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+}
+#newsForm{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+#videoHead{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#player{
+    margin-left: 20px;
+}
+#mikeandmo{
+    float: left;
+    margin-top: 50px;    
+    margin-left: 50px;    
+    height:900px;
+    width: 700px;
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    border: 5px solid rgb(133, 20, 39);    
+}
+#kean{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;    
+    height:900px;
+    width: 700px;
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    border: 5px solid rgb(133, 20, 39);
+}
+footer{
+    clear: both;
+    overflow: auto;
+    background: #666666;
+    color: cornsilk;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-top: 5px solid pink;
+    left: 0;                             /*Puts Footer at page bottom*/
+    right: 0;
+    bottom: 0;
+}
